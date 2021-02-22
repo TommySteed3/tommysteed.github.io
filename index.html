@@ -4,19 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coding Practice</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>This is an h1</h1>
-    <h2>This is an h2</h2>
-    <h3>This is an h3 - and so on.</h3>
 
-<div>
+        <div class="wrapper">
+                <div class="box a" id = "home"><nav>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </nav></div>
+                <div class="box b">
+                    <img src="linkedin.jpg" alt="Heat Map" style="float: left; padding-right: 15px; margin-right: 15px;">
+                    <p>Hello and welcome to my Git Hub page.  I am an actuary with
+                        25 years of experience in the life insurance industry.  I have been focusing more
+                        on data science for the last few years.  Some of the work I have
+                        done can be found here on this page.  Please have a look and contact
+                        me if you have any feedback.  I hope you find this useful.
+                    </p>
+                </div>
+                <div class="box d" id = "picture"><img src="QCA.PNG" alt="Brad Pitt-esque" width="450px">
+                    <a href="https://tommy-steed.shinyapps.io/QCA_Home/">LINK</a>
+                
+                
+                
+          </div>
 
-This is a div.  It is a container for other html elements.  Helps with splitting into sections.
+          <div class="box c">
+                
+                <h3 style="text-align: center; padding-top: 0px;">R Is For Actuaries</h3>
+                <p style="font-size: 15px;">I have recorded a 4 part video series that introduces actuaries to R.
+                    The course walks you through an experience study using the following:</p>
+                <ul style="font-size: 15px;">
 
-</div>
+                    <li>Data cleaning with dplyr.</li>
+                    <li>Data visualization with ggplot2</li>
+                    <li>Creating a report with markdown</li>
+                    <li>Publishing results using Shiny</li>
+
+                </ul>
+                <p style="font-size: 15px;">I published the final dashboard and markdown document using shinyapps.io.
+                    The dashboard also contains links to the video tutorials and source data.
+                </p>
+                
+          </div>
 
 
+                
+                <div class="box e" id = "contact">
+                        <h3 style="text-align: center;"> SOA Predictive Analytics Summary</h3><br>
+                        <p style="font-size: 15px;">In 2019 I completed the SOA Predictive Analytics Seminar.  My notes are summarized at the 
+                            link below.  Some things to point out:
+                        </p> <br>
+                        <ul style="font-size: 14px;">
+                        <li>The notes are written in Markdown which allows you to combine narrative notes, 
+                                code snippets, and visualizations.
+                            </li>
+                            <li>Normally I use R Studio to code in R and R Markdown.  For these notes I used 
+                                Jupyter Notebook - which renders better when pushed to Git Hub.
+                            </li>
+                            <li>These notes are a great resource for actuaries.  It is difficult to find Predictive
+                                modeling notes that are designed with actuarial work in mind.
+                            </li>
+                        </ul>
+                    
+                </div>
+                <div class="box f">
+                   
+                   
+                   <img src="SOA.PNG" alt="PM Graph" width = "450px">
+                   <a href="https://github.com/TommySteed3/SOA_Predictive_Analytics" style = "text-align: center;">SOA Predictive Analytics Summary Link</a>
+                </div>
+
+                             </div>
+    
 </body>
 </html>
