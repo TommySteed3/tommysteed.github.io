@@ -40,7 +40,7 @@ li a {
   }
   .b {
     grid-column: 3 ;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
     flex: 1;
   }
   .c {
@@ -79,6 +79,17 @@ li a {
 .h{
   grid-column: 2 ;
   grid-row: 4 ;
+}
+
+.i {
+
+  grid-column: 1 ;
+  grid-row: 5 ;
+}
+
+.i{
+grid-column: 2 ;
+grid-row: 5 ;
 }
   a{
     color: white;
